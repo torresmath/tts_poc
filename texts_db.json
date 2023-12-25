@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "id": "info_icon",
+      "category": "icons",
+      "text": "Ícone de informações. Clique aqui para detalhes sobre a ferramenta"
+    },
+    {
+      "id": "confirm_button",
+      "category": "buttons",
+      "text": "Botão de confirmar. Cria um novo formulário."
+    },
+    {
+      "id": "undo_button",
+      "category": "buttons",
+      "text": "Descartar última ação realizada"
+    }
+  ]
+}
