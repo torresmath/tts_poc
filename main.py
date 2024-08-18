@@ -10,9 +10,6 @@ speaker.setProperty('voice', 'brazil')
 save_path = f"{getcwd()}\speech_db"
 files_extension = 'wav'
 
-for voice in speaker.getProperty('voices'):
-    print(voice)
-
 
 def safe_check_path(text_data: Dict[str, str]):
     expected_path = f"{save_path}\{text_data['category']}"
