@@ -8,7 +8,10 @@ import pyttsx3
 speaker = pyttsx3.init()
 speaker.setProperty('voice', 'brazil')
 save_path = f"{getcwd()}\speech_db"
-files_extension = 'mp3'
+files_extension = 'wav'
+
+for voice in speaker.getProperty('voices'):
+    print(voice)
 
 
 def safe_check_path(text_data: Dict[str, str]):
